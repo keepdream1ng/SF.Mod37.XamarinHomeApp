@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SF.Mod37.XamarinHomeApp.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

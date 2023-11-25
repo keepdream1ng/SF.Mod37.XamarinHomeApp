@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:SF.Mod37.XamarinHomeApp"
-             x:Class="SF.Mod37.XamarinHomeApp.LoginPage">
+             xmlns:local="clr-namespace:SF.Mod37.XamarinHomeApp.Pages"
+             x:Class="SF.Mod37.XamarinHomeApp.Pages.LoginPage">
     <ContentPage.Content>
 
         <StackLayout
