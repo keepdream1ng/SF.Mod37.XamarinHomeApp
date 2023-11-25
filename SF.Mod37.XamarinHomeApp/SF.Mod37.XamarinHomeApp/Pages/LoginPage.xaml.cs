@@ -18,9 +18,11 @@ namespace SF.Mod37.XamarinHomeApp.Pages
 		public LoginPage()
 		{
 			InitializeComponent();
+			loginButton.Clicked += OnLoginButtonClicked;
+			toRegisterButton.Clicked += OnToRegisterPageButtonClicked;
 		}
 
-		private void Login_Click(object sender, EventArgs e)
+		private void OnLoginButtonClicked(object sender, EventArgs e)
 		{
 			if (loginCouner == 0)
 			{
@@ -37,6 +39,11 @@ namespace SF.Mod37.XamarinHomeApp.Pages
 			}
 
 			loginCouner++;
+		}
+
+		private async void OnToRegisterPageButtonClicked(object sender, EventArgs e)
+		{
+            await Navigation.PushAsync(new RegisterPage());
 		}
 	}
 }

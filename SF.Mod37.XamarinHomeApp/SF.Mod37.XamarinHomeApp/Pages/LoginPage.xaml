@@ -17,7 +17,7 @@
             <Button
             x:Name="loginButton"
             Text="{x:Static local:LoginPage.BUTTON_TEXT}"
-            Clicked="Login_Click" />
+            />
             <Label
                 x:Name="errorMessage"
                 FontSize="Small"
@@ -25,6 +25,10 @@
                 Padding="30,10,30,10"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"/>
+            <Button
+            x:Name="toRegisterButton"
+            Text="Registrtration"
+            />
         </StackLayout>
 
     </ContentPage.Content>
