@@ -11,7 +11,7 @@ namespace SF.Mod37.XamarinHomeApp
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new LoginPage());
+			MainPage = new NavigationPage(new ClimatePage());
 		}
 
 		protected override void OnStart()
